@@ -19,5 +19,7 @@ public class TwoSum {
             map.put(nums[i], i);
         }
         return result;
+        //time: O(n)
+        //space: O(n) - adding all values to HashMap
     }
 }
